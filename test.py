@@ -26,6 +26,7 @@ Namespaces are one honking great idea -- let's do more of those!
 str = "Two too."
 line = "123 hi 34 hello."
 t = "__one__two__ __three__"
+line = "hogehoge"
 
 matches = re.findall("__.*?__", t, re.IGNORECASE)
 
